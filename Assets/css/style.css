@@ -1,0 +1,207 @@
+.navbar .icon i {
+    padding-left: .2rem;
+    float: left;
+    flex: content;
+}
+
+.banner{
+    position: relative;
+  text-align: center;
+}
+
+#home{
+  /* background-image: url(/Assets/img/lady\ in\ jeans.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* #shop .container img{
+    width: 100%;
+    height: 100%;
+
+} */
+
+
+
+.banner .text{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  margin-bottom: 50rem;
+  font-weight: bolder;
+}
+
+#home .text{
+    margin-top: 9rem;
+}
+
+#home{
+    background-color: aliceblue;
+}
+
+#home img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container:hover .image {
+    opacity: 0.7;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text-2 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .container .middle a{
+      text-decoration: none;
+      color: wheat;
+  }
+
+
+  .deals img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  #collection img{
+    width: 100%;
+    height: 100%;
+  }
+  #collection{
+    margin-top: 5rem;
+  }
+  #collection .collect h5{
+    position: absolute;
+    text-align: center;
+    
+  }
+  #collection .collect h5 a{
+    color: white;
+    text-decoration: none ;
+    font-weight: bolder;
+  }
+  #collection .collect img{
+    position: relative;
+    top: 25px;
+  }
+
+  .swiper-slide .image{
+    width: 60vh;
+    position: relative;
+   
+  }
+
+  .swiper-slide .img-tex{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+  }
+
+  .swiper-slide .img-tex h5{
+    font-weight: bolder;
+  }
+
+
+
+  .swiper-slide .img-tex h5 a{
+    text-decoration: none;
+    color: white;
+  }
+
+ 
+
+
+  #urban img{
+    width: 100%;
+    position: relative;
+    bottom: 10rem;
+  }
+ 
+  
+  #urban .urb{
+    position: absolute;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    bottom: 20rem;
+    
+  }
+
+  #urban{
+    margin-top: 30rem;
+  }
+
+  
+  
+  
+
+
+
+
+@media(max-width:400px){
+    #home{
+        background-image: url(/Assets/img/black\ backgroud.jpg);
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+}
+#swiper .image{
+  display: none;
+  
+  
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+  /* :::: Header :::: */
+  #swiper .image{
+    width: 50vh;
+    height: 50vh;
+    text-align: center;
+    
+  }
+
+  #new .swiper-wrapper img{
+    width:70%;
+    height: 30rem;
+  }
